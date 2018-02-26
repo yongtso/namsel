@@ -7,7 +7,8 @@ sudo apt-get install python-pip python2.7-dev \
 sudo pip2 install Cython pillow sklearn requests simplejson wheel scipy numpy
 sudo pip2 install --upgrade scikit-learn==0.18.1
 python setup.py build_ext --inplace
-mkdir -p ~/.fontscp data_generation/fonts/*ttf ~/.fonts/
+mkdir -p ~/.fontscp ~/.fonts/
+cp ./data_generation/fonts/*ttf ~/.fonts
 fc-cache -f -v
 cd data_generation
 python font_draw.py
