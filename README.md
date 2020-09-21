@@ -1,4 +1,4 @@
-# NOTE: THIS PROJECT IS NO LONGER BEING DEVELOPED. If you are looking for a replacement, Google's Compute [Vision API](https://cloud.google.com/vision) provides fairly accurate OCR on u-chen texts.
+### NOTE: THIS PROJECT IS NO LONGER BEING DEVELOPED. If you are looking for a replacement, Google's Compute [Vision API](https://cloud.google.com/vision) provides fairly accurate OCR on u-chen texts.
 
 # Namsel OCR
 An OCR application focused on machine-print Tibetan text
